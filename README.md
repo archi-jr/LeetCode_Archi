@@ -121,4 +121,12 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/archi-jr/LeetCode_Archi/tree/master/0207-course-schedule) |
+## Linked List
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/archi-jr/LeetCode_Archi/tree/master/0021-merge-two-sorted-lists) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/archi-jr/LeetCode_Archi/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
