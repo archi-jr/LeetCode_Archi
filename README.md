@@ -1,5 +1,6 @@
                                           
-  A curated collection of optimized Java solutions, automatically synced via LeetHub V2.
+🚀 LeetCode_Archi  
+🛠️  Optimized Java Solutions • Synced via LeetHub V2
 ==============================================================================
 
 
