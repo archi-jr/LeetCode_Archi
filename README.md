@@ -1,4 +1,4 @@
-<!--
+
   ==============================================================================
    _      _      _   _                _            
   | |    (_)    | | | |              | |           
@@ -9,7 +9,7 @@
                                                   
   A curated collection of optimized Java solutions, automatically synced via LeetHub V2.
   ==============================================================================
--->
+
 
 [![Java](https://img.shields.io/badge/Java-17-blue?logo=java)](https://www.java.com/) 
 [![LeetHub](https://img.shields.io/badge/LeetHub-V2-green)](https://github.com/leet-hub/LeetHub) 
