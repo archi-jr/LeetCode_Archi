@@ -141,9 +141,15 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 ## Math
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/archi-jr/LeetCode_Archi/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/archi-jr/LeetCode_Archi/tree/master/0224-basic-calculator) |
 ## Stack
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/archi-jr/LeetCode_Archi/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/archi-jr/LeetCode_Archi/tree/master/0224-basic-calculator) |
+## Array
+|  |
+| ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/archi-jr/LeetCode_Archi/tree/master/0150-evaluate-reverse-polish-notation) |
 <!---LeetCode Topics End-->
