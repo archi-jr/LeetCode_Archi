@@ -133,6 +133,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 | [0005-longest-palindromic-substring](https://github.com/archi-jr/LeetCode_Archi/tree/master/0005-longest-palindromic-substring) |
 | [0072-edit-distance](https://github.com/archi-jr/LeetCode_Archi/tree/master/0072-edit-distance) |
 | [0224-basic-calculator](https://github.com/archi-jr/LeetCode_Archi/tree/master/0224-basic-calculator) |
+| [1508-longest-happy-prefix](https://github.com/archi-jr/LeetCode_Archi/tree/master/1508-longest-happy-prefix) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -152,4 +153,16 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/archi-jr/LeetCode_Archi/tree/master/0150-evaluate-reverse-polish-notation) |
+## Rolling Hash
+|  |
+| ------- |
+| [1508-longest-happy-prefix](https://github.com/archi-jr/LeetCode_Archi/tree/master/1508-longest-happy-prefix) |
+## String Matching
+|  |
+| ------- |
+| [1508-longest-happy-prefix](https://github.com/archi-jr/LeetCode_Archi/tree/master/1508-longest-happy-prefix) |
+## Hash Function
+|  |
+| ------- |
+| [1508-longest-happy-prefix](https://github.com/archi-jr/LeetCode_Archi/tree/master/1508-longest-happy-prefix) |
 <!---LeetCode Topics End-->
