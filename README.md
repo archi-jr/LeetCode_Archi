@@ -130,6 +130,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/archi-jr/LeetCode_Archi/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/archi-jr/LeetCode_Archi/tree/master/0005-longest-palindromic-substring) |
 | [0072-edit-distance](https://github.com/archi-jr/LeetCode_Archi/tree/master/0072-edit-distance) |
 | [0224-basic-calculator](https://github.com/archi-jr/LeetCode_Archi/tree/master/0224-basic-calculator) |
@@ -165,4 +166,12 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [1508-longest-happy-prefix](https://github.com/archi-jr/LeetCode_Archi/tree/master/1508-longest-happy-prefix) |
+## Hash Table
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/archi-jr/LeetCode_Archi/tree/master/0003-longest-substring-without-repeating-characters) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/archi-jr/LeetCode_Archi/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
