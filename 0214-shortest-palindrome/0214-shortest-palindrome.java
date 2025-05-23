@@ -20,13 +20,13 @@ class Solution
 
         String original = s;
 
-        String reverse = "";
-
-        for(int i= n-1; i>=0; i--)
-        {
-            char ch = s.charAt(i);
-            reverse = reverse + ch;
-        }
+        // String reverse = "";
+        String reverse = new StringBuilder(s).reverse().toString();
+        // for(int i= n-1; i>=0; i--)
+        // {
+        //     char ch = s.charAt(i);
+        //     reverse = reverse + ch;
+        // }
 
         String str = original + "*" + reverse;
 
