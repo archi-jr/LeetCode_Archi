@@ -1,45 +1,62 @@
-// Here, as it is that "smallest element in nums divides all the elements of numsDivide" it means that that no. must be either a factor of the GCD of all the elements in the numsDivide array or the GCD itself.
+// Now, we use a frequency map to avoid sorting while still processing elements in ascending order. 
+// TC = O(n log k + m log(max_value))
 
-// ALso, we will sort the nums array so that we get the smallest no. and also we don't need to worry about the dublicates.
-
-// Now, to check whether the nums array has any element which is a factor of GCD, we iterate through each element of the nums array(after it being sorted) and check whether any element divides the GCD or not. 
-
-// here, TC = O(n log n + m log(max_value)) 
-
-class Solution 
-{
-    public int minOperations(int[] nums, int[] numsDivide) 
-    {
+class Solution {
+    public int minOperations(int[] nums, int[] numsDivide) {
+        // Find GCD of all elements in numsDivide
         int gcd = findGCD(numsDivide);
-
-        Arrays.sort(nums);
-
-        //Iterating from the smallest to the largest in the nums array
-        for(int i=0; i < nums.length; i++)
-        {
-            if(gcd % nums[i] == 0)
-            return i;
+        
+        // Use TreeMap to store frequency and maintain sorted order
+        // TreeMap automatically sorts keys in ascending order
+        Map<Integer, Integer> freqMap = new TreeMap<>();
+        
+        // Count frequency of each element in nums
+        for (int num : nums) {
+            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
         }
-
-        return -1;
+        
+        int deletions = 0;
+        
+        // Iterate through elements in ascending order (TreeMap property)
+        for (Map.Entry<Integer, Integer> entry : freqMap.entrySet()) {
+            int num = entry.getKey();
+            int freq = entry.getValue();
+            
+            // If current number divides GCD, return deletions needed
+            if (gcd % num == 0) {
+                return deletions;
+            }
+            
+            // Add frequency to deletions (all occurrences need to be deleted)
+            deletions += freq;
+        }
+        
+        return -1; // No valid divisor found
     }
-
-    int findGCD(int[] numsDivide )
-    {
-        int gcd = numsDivide[0];
-
-        for(int i=1; i < numsDivide.length; i++)
-        {
-            int num = numsDivide[i];
-
-            while(num > 0)
-            {
-                int temp = gcd % num;
-                gcd = num;
-                num = temp;
+    
+    // Optimized GCD calculation using Euclidean algorithm
+    private int findGCD(int[] arr) {
+        int result = arr[0];
+        
+        for (int i = 1; i < arr.length; i++) {
+            result = gcd(result, arr[i]);
+            
+            // Early termination: if GCD becomes 1, it won't change
+            if (result == 1) {
+                break;
             }
         }
-
-        return gcd;
+        
+        return result;
+    }
+    
+    // Helper method for GCD of two numbers
+    private int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = a % b;
+            a = b;
+            b = temp;
+        }
+        return a;
     }
 }
