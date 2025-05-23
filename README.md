@@ -133,6 +133,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 | [0003-longest-substring-without-repeating-characters](https://github.com/archi-jr/LeetCode_Archi/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/archi-jr/LeetCode_Archi/tree/master/0005-longest-palindromic-substring) |
 | [0072-edit-distance](https://github.com/archi-jr/LeetCode_Archi/tree/master/0072-edit-distance) |
+| [0214-shortest-palindrome](https://github.com/archi-jr/LeetCode_Archi/tree/master/0214-shortest-palindrome) |
 | [0224-basic-calculator](https://github.com/archi-jr/LeetCode_Archi/tree/master/0224-basic-calculator) |
 | [1508-longest-happy-prefix](https://github.com/archi-jr/LeetCode_Archi/tree/master/1508-longest-happy-prefix) |
 ## Dynamic Programming
@@ -157,14 +158,17 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 ## Rolling Hash
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/archi-jr/LeetCode_Archi/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/archi-jr/LeetCode_Archi/tree/master/1508-longest-happy-prefix) |
 ## String Matching
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/archi-jr/LeetCode_Archi/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/archi-jr/LeetCode_Archi/tree/master/1508-longest-happy-prefix) |
 ## Hash Function
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/archi-jr/LeetCode_Archi/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/archi-jr/LeetCode_Archi/tree/master/1508-longest-happy-prefix) |
 ## Hash Table
 |  |
