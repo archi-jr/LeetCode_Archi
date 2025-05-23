@@ -146,6 +146,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/archi-jr/LeetCode_Archi/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/archi-jr/LeetCode_Archi/tree/master/0224-basic-calculator) |
+| [2423-minimum-deletions-to-make-array-divisible](https://github.com/archi-jr/LeetCode_Archi/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Stack
 |  |
 | ------- |
@@ -155,6 +156,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/archi-jr/LeetCode_Archi/tree/master/0150-evaluate-reverse-polish-notation) |
+| [2423-minimum-deletions-to-make-array-divisible](https://github.com/archi-jr/LeetCode_Archi/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -178,4 +180,16 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/archi-jr/LeetCode_Archi/tree/master/0003-longest-substring-without-repeating-characters) |
+## Sorting
+|  |
+| ------- |
+| [2423-minimum-deletions-to-make-array-divisible](https://github.com/archi-jr/LeetCode_Archi/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2423-minimum-deletions-to-make-array-divisible](https://github.com/archi-jr/LeetCode_Archi/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+## Number Theory
+|  |
+| ------- |
+| [2423-minimum-deletions-to-make-array-divisible](https://github.com/archi-jr/LeetCode_Archi/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 <!---LeetCode Topics End-->
