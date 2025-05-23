@@ -4,6 +4,7 @@
 
 // Now, to check whether the nums array has any element which is a factor of GCD, we iterate through each element of the nums array(after it being sorted) and check whether any element divides the GCD or not. 
 
+// here, TC = O(n log n + m log(max_value)) 
 
 class Solution 
 {
