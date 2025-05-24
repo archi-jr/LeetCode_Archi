@@ -156,6 +156,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/archi-jr/LeetCode_Archi/tree/master/0150-evaluate-reverse-polish-notation) |
+| [1185-find-in-mountain-array](https://github.com/archi-jr/LeetCode_Archi/tree/master/1185-find-in-mountain-array) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/archi-jr/LeetCode_Archi/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Rolling Hash
 |  |
@@ -192,4 +193,12 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/archi-jr/LeetCode_Archi/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+## Binary Search
+|  |
+| ------- |
+| [1185-find-in-mountain-array](https://github.com/archi-jr/LeetCode_Archi/tree/master/1185-find-in-mountain-array) |
+## Interactive
+|  |
+| ------- |
+| [1185-find-in-mountain-array](https://github.com/archi-jr/LeetCode_Archi/tree/master/1185-find-in-mountain-array) |
 <!---LeetCode Topics End-->
