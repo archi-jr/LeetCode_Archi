@@ -135,6 +135,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 | [0072-edit-distance](https://github.com/archi-jr/LeetCode_Archi/tree/master/0072-edit-distance) |
 | [0214-shortest-palindrome](https://github.com/archi-jr/LeetCode_Archi/tree/master/0214-shortest-palindrome) |
 | [0224-basic-calculator](https://github.com/archi-jr/LeetCode_Archi/tree/master/0224-basic-calculator) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/archi-jr/LeetCode_Archi/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1508-longest-happy-prefix](https://github.com/archi-jr/LeetCode_Archi/tree/master/1508-longest-happy-prefix) |
 ## Dynamic Programming
 |  |
@@ -177,10 +178,12 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/archi-jr/LeetCode_Archi/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/archi-jr/LeetCode_Archi/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Sliding Window
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/archi-jr/LeetCode_Archi/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/archi-jr/LeetCode_Archi/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Sorting
 |  |
 | ------- |
