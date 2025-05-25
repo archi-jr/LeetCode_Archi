@@ -127,6 +127,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/archi-jr/LeetCode_Archi/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/archi-jr/LeetCode_Archi/tree/master/0042-trapping-rain-water) |
 ## String
 |  |
 | ------- |
@@ -141,6 +142,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/archi-jr/LeetCode_Archi/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/archi-jr/LeetCode_Archi/tree/master/0042-trapping-rain-water) |
 | [0072-edit-distance](https://github.com/archi-jr/LeetCode_Archi/tree/master/0072-edit-distance) |
 ## Math
 |  |
@@ -151,11 +153,13 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/archi-jr/LeetCode_Archi/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/archi-jr/LeetCode_Archi/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/archi-jr/LeetCode_Archi/tree/master/0224-basic-calculator) |
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/archi-jr/LeetCode_Archi/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/archi-jr/LeetCode_Archi/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1185-find-in-mountain-array](https://github.com/archi-jr/LeetCode_Archi/tree/master/1185-find-in-mountain-array) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/archi-jr/LeetCode_Archi/tree/master/2423-minimum-deletions-to-make-array-divisible) |
@@ -204,4 +208,8 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [1185-find-in-mountain-array](https://github.com/archi-jr/LeetCode_Archi/tree/master/1185-find-in-mountain-array) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/archi-jr/LeetCode_Archi/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
