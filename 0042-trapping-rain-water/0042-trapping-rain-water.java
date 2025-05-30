@@ -1,35 +1,42 @@
-class Solution {
-    public int trap(int[] height) {
-        // Create an array to store the maximum height to the left of each index
-        int leftmax[] = new int[height.length];
-        leftmax[0] = height[0];
-        for (int i = 1; i < height.length; i++) {
-            leftmax[i] = Math.max(height[i], leftmax[i - 1]);
+// Main Formula: 
+// For every ith bar, the water stored on top of it = min(Left max bar, Right Max bar) - Height of the particular ith bar
+
+// !st optimal Approach: (Prefix Array)
+// We will store the leftmax ht. of each particular bar and store it in an array. Similarly, we will do the same for storing each bar's Rightmax in another array.
+// This process of storng the values in array beforehand is called Prefix Array.
+
+// Here, TC = O(n)
+// SC = O(n)
+
+class Solution 
+{
+    public int trap(int[] height) 
+    {
+        int n = height.length;
+
+        int lmax[] = new int[n];
+        int rmax[] = new int[n];
+
+        lmax[0] = height[0];
+        rmax[n-1] = height[n-1];
+
+        for(int i=1; i<n; i++)
+        {
+            lmax[i] = Math.max(lmax[i-1], height[i]);
+        }
+        
+        for(int i=n-2; i>=0; i--)
+        {
+            rmax[i] = Math.max(rmax[i+1], height[i]);
         }
 
-        // Create an array to store the maximum height to the right of each index
-        int rightmax[] = new int[height.length];
-        rightmax[height.length - 1] = height[height.length - 1];
-        for (int i = height.length - 2; i >= 0; i--) {
-            rightmax[i] = Math.max(rightmax[i + 1], height[i]);
+        int ans = 0;
+
+        for(int i=0; i<n; i++)
+        {
+            ans = ans + Math.min(lmax[i], rmax[i]) - height[i];
         }
 
-        int trappwater = 0; // Variable to store total trapped water
-
-        // Calculate trapped water at each index
-        for (int i = 0; i < height.length; i++) {
-            // Water level at current index is min of max heights on both sides
-            int water = Math.min(leftmax[i], rightmax[i]);
-
-            // Subtract the height of the current bar to get trapped water
-            int sub = water - height[i];
-
-            // Only add if trapped water is positive
-            if (sub > 0) {
-                trappwater += sub;
-            }
-        }
-
-        return trappwater; // Return the total trapped water
+        return ans;
     }
 }
