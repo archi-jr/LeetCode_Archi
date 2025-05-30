@@ -1,13 +1,3 @@
-// Main Formula: 
-// For every ith bar, the water stored on top of it = min(Left max bar, Right Max bar) - Height of the particular ith bar
-
-// !st optimal Approach: (Prefix Array)
-// We will store the leftmax ht. of each particular bar and store it in an array. Similarly, we will do the same for storing each bar's Rightmax in another array.
-// This process of storng the values in array beforehand is called Prefix Array.
-
-// Here, TC = O(n)
-// SC = O(n)
-
 class Solution 
 {
     public int trap(int[] height) 
