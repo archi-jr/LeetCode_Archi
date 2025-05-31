@@ -144,6 +144,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 | [0005-longest-palindromic-substring](https://github.com/archi-jr/LeetCode_Archi/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/archi-jr/LeetCode_Archi/tree/master/0042-trapping-rain-water) |
 | [0072-edit-distance](https://github.com/archi-jr/LeetCode_Archi/tree/master/0072-edit-distance) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/archi-jr/LeetCode_Archi/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Math
 |  |
 | ------- |
@@ -161,6 +162,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 | ------- |
 | [0042-trapping-rain-water](https://github.com/archi-jr/LeetCode_Archi/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/archi-jr/LeetCode_Archi/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/archi-jr/LeetCode_Archi/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1185-find-in-mountain-array](https://github.com/archi-jr/LeetCode_Archi/tree/master/1185-find-in-mountain-array) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/archi-jr/LeetCode_Archi/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Rolling Hash
@@ -212,4 +214,12 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/archi-jr/LeetCode_Archi/tree/master/0042-trapping-rain-water) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/archi-jr/LeetCode_Archi/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Segment Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/archi-jr/LeetCode_Archi/tree/master/0673-number-of-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
