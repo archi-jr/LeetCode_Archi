@@ -122,6 +122,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/archi-jr/LeetCode_Archi/tree/master/0021-merge-two-sorted-lists) |
+| [0044-wildcard-matching](https://github.com/archi-jr/LeetCode_Archi/tree/master/0044-wildcard-matching) |
 | [0224-basic-calculator](https://github.com/archi-jr/LeetCode_Archi/tree/master/0224-basic-calculator) |
 ## Two Pointers
 |  |
@@ -133,6 +134,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/archi-jr/LeetCode_Archi/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/archi-jr/LeetCode_Archi/tree/master/0005-longest-palindromic-substring) |
+| [0044-wildcard-matching](https://github.com/archi-jr/LeetCode_Archi/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/archi-jr/LeetCode_Archi/tree/master/0072-edit-distance) |
 | [0214-shortest-palindrome](https://github.com/archi-jr/LeetCode_Archi/tree/master/0214-shortest-palindrome) |
 | [0224-basic-calculator](https://github.com/archi-jr/LeetCode_Archi/tree/master/0224-basic-calculator) |
@@ -143,6 +145,7 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/archi-jr/LeetCode_Archi/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/archi-jr/LeetCode_Archi/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/archi-jr/LeetCode_Archi/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/archi-jr/LeetCode_Archi/tree/master/0072-edit-distance) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/archi-jr/LeetCode_Archi/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Math
@@ -222,4 +225,8 @@ Contributions, issues, and feature requests are warmly welcome! 🙏
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/archi-jr/LeetCode_Archi/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Greedy
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/archi-jr/LeetCode_Archi/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
