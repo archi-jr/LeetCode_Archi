@@ -1,52 +1,40 @@
-//Whenever, in Question it is said that "Calculator" we have to use Stack. 
-//TC = O(N), where, N -> is the length of the input string
-
 class Solution {
     public int calculate(String s) {
-        int len = s.length();
-        int sign = +1; //Here, for sign variable +1 means +ve sign and -1 means -ve sign
-        int ans = 0;
-        int currNo = 0;
-
-        Stack<Integer> stack = new Stack<Integer>();
-
-        for(int i=0; i<len; i++)
-        {
-            if(Character.isDigit(s.charAt(i)))
-            {
-                currNo = s.charAt(i) - '0';
-                while(i + 1 < len && Character.isDigit(s.charAt(i+1)))
-                {
-                    currNo = currNo * 10 + s.charAt(i+1) - '0';
-                    i++;
-                }
-                currNo = currNo * sign;
-                ans += currNo;
-                currNo = 0;//Thses 2 variables(currNo and sign) are again set back to the default value
+        Stack<Integer> stack = new Stack<>();
+        int result = 0;
+        int number = 0;
+        int sign = 1;
+        
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            
+            if (Character.isDigit(c)) {
+                number = number * 10 + (c - '0');
+            } else if (c == '+') {
+                result += sign * number;
+                number = 0;
                 sign = 1;
-            }
-            else if(s.charAt(i) == '+')
-            sign = +1;
-
-            else if(s.charAt(i) == '-')
-            sign = -1;
-
-            else if(s.charAt(i) == '(')
-            {
-                stack.push(ans);
+            } else if (c == '-') {
+                result += sign * number;
+                number = 0;
+                sign = -1;
+            } else if (c == '(') {
+                // Push the result and sign onto stack
+                stack.push(result);
                 stack.push(sign);
-                ans = 0;//Thses 2 variables(ans and sign) are again set back to the default value to calculate the value inside the parenthesis
+                // Reset for the new sub-expression
+                result = 0;
                 sign = 1;
+            } else if (c == ')') {
+                result += sign * number;
+                number = 0;
+                // Pop the sign and previous result
+                result *= stack.pop();    // multiply by sign before '('
+                result += stack.pop();    // add the previous result
             }
-
-            else if(s.charAt(i) == ')')
-            {
-                int prevSign = stack.pop();
-                ans = prevSign * ans;//The value with sign
-                int prevAns = stack.pop();
-                ans = ans + prevAns;
-            }
+            // Skip spaces automatically
         }
-        return ans;
+        
+        return result + (sign * number);
     }
 }
